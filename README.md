@@ -85,6 +85,46 @@ b = webdriver.Chrome()
 3. chromedriver.exe 解压到 `C:\Program Files\Chrome\Application` 目录下
 4. 配置环境变量
 
+``` python
+# 打开网页
+b.get('http://www.baidu.com)
+# 输入title
+b.title
+# 是否包含 百度字符串
+'百度' in b.title
+# 在浏览器打开地址 http://www.f.cc
+b.current_url
+
+```
+
+## 元素定位
+
+- 元素名称      | webdriver API
+- id           | find_element_by_id()
+- name         | find_element_by_name()
+- class name   | find_element_by_class_name()
+- tag name     | find_element_by_tag_name() 紧返回第一个标签
+- link text    | find_element_by_link_text()
+- partial link text | find_element_by_partial_link_text()
+- xpath        | find_element_by_xpath()
+- css selector | find_element_by_css_selector()
+
+- find_element("id|name", "value")
+
+- 元素操作
+- clear() 清楚元素内容
+- send_keys('追加内容') 模拟按键输入
+- click() 点击
+- submit() 提交表单
+- back()
+
+## webdriver 模块对浏览器进行操作
+
+``` Python
+# 窗口全屏
+b.maximize_window()
+```
+
 ### web
 
 ### 代码测试
