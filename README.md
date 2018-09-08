@@ -304,7 +304,7 @@ ele.text
 b.window_handles
 
 # 当前句柄
-b.current_window_handler
+b.current_window_handle
 
 # 切换窗口
 b.switch_to_window(d.window.handlers[1])
