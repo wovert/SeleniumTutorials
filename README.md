@@ -1,4 +1,4 @@
-# 自动化测试-[零壹码博客](https://lingyima.com)
+# 自动化测试
 
 ## 软件开发流程
 
@@ -39,11 +39,42 @@ selenium: 用于Web应用程序测试的工具，支持多平台、多浏览、�
 
 ## selenium 简介
 
-1. 开源软件
-2. 支持主流浏览器：FF,Chrome,IE
-3. 跨平台：windows,Linux,Mac
-4. 多语言：Java, Python, Ruby，PHP, JS
-5. 对 Web 支持良好，丰富简单的 API
+1. UI功能测试框架
+2. 开源软件
+3. 支持主流浏览器：FF,C hrome, IE
+4. 跨平台：windows, Linux, Mac
+5. 支持多种编程语言：Java, Python, C#, Ruby，PHP, JS
+6. 对 Web 支持良好，丰富简单的 API
+
+### Selenium 演进过程
+
+- 2004 Selnuimu
+- 2007 WebDriver
+- 2009 - 2011 Selenium 2
+
+### Selenium 术语
+
+- Selenium Core: JavaScript Framework
+  - IDE: Firefox 插件
+  - RC (Remote Cotnrol)
+    - 服务端
+    - 客户端
+  - WebDriver
+    - WebDriver API
+    - 建议架构，不再需要显示启动 Selenium Server
+    - Java/csharp/python/ruby/php/perl/javascript
+  - Grid
+    - 分布执行测试
+
+### Selenium IDE
+
+- 录制 Recording
+- 编码 Coding
+
+### Selenium 安装
+
+- Firefox：http://www.seleniumhq.org 下载
+  
 
 ## Web 调试工具介绍与开发环境搭建
 
